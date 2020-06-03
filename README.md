@@ -12,10 +12,10 @@ You have been provided a [JSON object](js/index.js) with all the necessary data 
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
-* [ ] Add your project manager as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [ 1] Create a forked copy of this project.
+* [1 ] Add your project manager as collaborator on Github.
+* [ 1] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [1 ] Create a new branch: git checkout -b `<firstName-lastName>`.
 * [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 * [ ] Push commits: git push origin `<firstName-lastName>`.
 
@@ -27,18 +27,18 @@ You have been provided a [JSON object](js/index.js) with all the necessary data 
 
 ## Task 1: Create selectors to point your data into elements
 
-* [ ] Create selectors by using any of the DOM element's methods
-* [ ] Note that IDs have been used on all images. Use the IDs to update src path content
+* [1 ] Create selectors by using any of the DOM element's methods
+* [1 ] Note that IDs have been used on all images. Use the IDs to update src path content
 
 ## Task 2: Update the HTML with the JSON data
 
-* [ ] Remember, NO direct updating of the HTML source is allowed.
-* [ ] Using your selectors, update the content to match the example file.
-* [ ] Remember to update the src attributes on images
+* [1 ] Remember, NO direct updating of the HTML source is allowed.
+* [1 ] Using your selectors, update the content to match the example file.
+* [1 ] Remember to update the src attributes on images
 
 ## Task 3: Add new content
 
-* [ ] Change the color of the navigation text to be green.
+* [1 ] Change the color of the navigation text to be green.
 * [ ] Utilize `.appendChild()` and `.prepend()` to add two new items to the navigation system. You can call them whatever you want.
 * [ ] Check your work by looking at the [original html](original.html) in the browser
 

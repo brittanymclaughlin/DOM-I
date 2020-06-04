@@ -71,7 +71,7 @@ document.querySelector('nav').appendChild(createlink);
 document.querySelector('nav').prepend(createlink2);
 
 for (x=0;x < links.length;x++){
-  links[x].style.color = 'blue';
+  links[x].style.color = 'green';
 }
 
 
@@ -93,6 +93,18 @@ headers[2].textContent = siteContent['main-content']['services-h4'];
 headers[3].textContent = siteContent['main-content']['product-h4'];
 headers[4].textContent = siteContent['main-content']['vision-h4'];
 headers[5].textContent = siteContent['contact']['contact-h4'];
+
+
+//headers = Array.from(headers);
+
+//headers.forEach(element => {
+  //console.log(header);
+  //element.style.color = 'blue';});
+for(x=0 ; x < headers.length; x++){
+  headers[x].style.color = 'blue';
+}
+
+
 
 const paragraphs = document.getElementsByTagName('p');
 paragraphs[0].textContent = siteContent['main-content']['features-content'];

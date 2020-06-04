@@ -70,14 +70,10 @@ createlink2.href = "https://www.github.com";
 document.querySelector('nav').appendChild(createlink);
 document.querySelector('nav').prepend(createlink2);
 
-links[0].style.color = 'green';
-links[1].style.color = 'green';
-links[2].style.color = 'green';
-links[3].style.color = 'green';
-links[4].style.color = 'green';
-links[5].style.color = 'green';
-links[6].style.color = 'green';
-links[7].style.color = 'green';
+for (x=0;x < links.length;x++){
+  links[x].style.color = 'blue';
+}
+
 
 let logotext = document.querySelector('h1');
 logotext.innerHTML='DOM <br> Is <br> Awesome';
